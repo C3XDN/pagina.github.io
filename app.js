@@ -10,7 +10,7 @@ previews.forEach((preview) => {
         //cambio de texto y de imagen
         const originalSrc = preview.getAttribute("data-original");
         console.log(originalSrc);
-        original.src = `./Imagenes/grandotas/${originalSrc}`;
+        original.src = `./Imagenes/${originalSrc}`;
         const altText = preview.alt;
         caption.textContent = altText;
     });
